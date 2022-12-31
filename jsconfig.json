@@ -1,0 +1,74 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "allowJs": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "/*": [
+        "./*"
+      ],
+      "meteor/mongo": [
+        "/Users/luizinho/.meteor/packages/mongo/1.16.3/web.browser/local_collection_driver.js",
+        "/Users/luizinho/.meteor/packages/mongo/1.16.3/web.browser/collection.js",
+        "/Users/luizinho/.meteor/packages/mongo/1.16.3/web.browser/connection_options.js",
+        "/Users/luizinho/.meteor/packages/mongo/1.16.3/web.browser/doc_fetcher.js",
+        "/Users/luizinho/.meteor/packages/mongo/1.16.3/web.browser/mongo_driver.js",
+        "/Users/luizinho/.meteor/packages/mongo/1.16.3/web.browser/mongo_utils.js",
+        "/Users/luizinho/.meteor/packages/mongo/1.16.3/web.browser/observe_multiplex.js",
+        "/Users/luizinho/.meteor/packages/mongo/1.16.3/web.browser/oplog_observe_driver.js",
+        "/Users/luizinho/.meteor/packages/mongo/1.16.3/web.browser/oplog_tailing.js",
+        "/Users/luizinho/.meteor/packages/mongo/1.16.3/web.browser/oplog_v2_converter.js",
+        "/Users/luizinho/.meteor/packages/mongo/1.16.3/web.browser/polling_observe_driver.js",
+        "/Users/luizinho/.meteor/packages/mongo/1.16.3/web.browser/remote_collection_driver.js"
+      ],
+      "meteor/jquery": [
+        "/Users/luizinho/.meteor/packages/jquery/3.0.0/web.browser/main.js"
+      ],
+      "meteor/reactive-var": [
+        "/Users/luizinho/.meteor/packages/reactive-var/1.0.12/web.browser/reactive-var.js"
+      ],
+      "meteor/tracker": [
+        "/Users/luizinho/.meteor/packages/tracker/1.2.1/web.browser/tracker.js"
+      ],
+      "meteor/es5-shim": [
+        "/Users/luizinho/.meteor/packages/es5-shim/4.8.0/web.browser/client.js",
+        "/Users/luizinho/.meteor/packages/es5-shim/4.8.0/web.browser/console.js",
+        "/Users/luizinho/.meteor/packages/es5-shim/4.8.0/web.browser/cordova.js",
+        "/Users/luizinho/.meteor/packages/es5-shim/4.8.0/web.browser/export_globals.js",
+        "/Users/luizinho/.meteor/packages/es5-shim/4.8.0/web.browser/import_globals.js"
+      ],
+      "meteor/ecmascript": [
+        "/Users/luizinho/.meteor/packages/ecmascript/0.16.4/web.browser/ecmascript.js"
+      ],
+      "meteor/shell-server": [
+        "/Users/luizinho/.meteor/packages/shell-server/0.5.0/web.browser/main.js",
+        "/Users/luizinho/.meteor/packages/shell-server/0.5.0/web.browser/shell-server.js"
+      ],
+      "meteor/hot-module-replacement": [
+        "/Users/luizinho/.meteor/packages/hot-module-replacement/0.5.2/web.browser/hot-api.js",
+        "/Users/luizinho/.meteor/packages/hot-module-replacement/0.5.2/web.browser/client.js",
+        "/Users/luizinho/.meteor/packages/hot-module-replacement/0.5.2/web.browser/server.js"
+      ],
+      "meteor/blaze-hot": [
+        "/Users/luizinho/.meteor/packages/blaze-hot/1.1.1/web.browser/hot.js",
+        "/Users/luizinho/.meteor/packages/blaze-hot/1.1.1/web.browser/update-templates.js"
+      ],
+      "meteor/mystor:device-detection": [
+        "/Users/luizinho/.meteor/packages/mystor_device-detection/0.2.0/web.browser//packages/mystor:device-detection.js"
+      ],
+      "meteor/meteorhacks:picker": [
+        "/Users/luizinho/.meteor/packages/meteorhacks_picker/1.0.3/web.browser//packages/meteorhacks_picker.js"
+      ]
+    }
+  },
+  "typeAcquisition": {
+    "include": [
+      "meteor"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    ".meteor"
+  ]
+}
